@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import styles from "../styles/navbar.module.css";
-import styles2 from "../styles/home.module.css";
+
 import Image from "next/image";
 import { ImFileText2, ImPlay2 } from "react-icons/im";
 
@@ -10,7 +10,7 @@ const Navbar = () => {
   const openMenu = () => setIsOpen(!isOpen);
 
   return (
-    <header className={styles2.header}>
+    <header>
       <nav className={styles.navbar}>
         <Link href="/">
           <a>
